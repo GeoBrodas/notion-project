@@ -30,7 +30,7 @@ module.exports = async function getProjects() {
       return {
         id: page.id,
         title: page.properties.Name.title[0].text.content,
-        description: page.properties.description.rich_text[0].plain_text ,
+        description: page.properties.description.rich_text[0].plain_text,
         status: page.properties.Status.select.name,
         live: page.properties.live_link.url,
         repo: page.properties.repo.url,
