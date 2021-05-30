@@ -1,7 +1,7 @@
 # Notion-Project
 Automate workflow using Notion API
 
-An API for filtering through a Notion databse whihc is fetched using the newly realeased Notion API.
+An API for filtering through a Notion databse which is fetched using the newly realeased Notion API.
 
 ### Stack used:
 - Express
